@@ -1,0 +1,30 @@
+/* Main Styling */
+section {
+    /* margin-top: 2%; */
+    padding: 10% 0;
+    height: auto;
+}
+
+/* Images, Logo, and others */
+.img-logo-at {
+    width: 55px !important;
+    height: auto !important;
+}
+
+/* Header Section */
+#header {
+    background-image: url('../img/Header.jpg');
+    background-size: 100% auto;
+}
+
+.underline--magical {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+}
+
+.underline--magical:hover {
+background-size: 100% 88%;
+}
