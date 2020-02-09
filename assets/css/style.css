@@ -18,7 +18,7 @@ section {
 /* ================================================================================ */
 
 
-/* Images, Logo, and others */
+/* Navs, Images, Logo, and others */
 
 .logo-nav {
     width: 50px;
@@ -35,26 +35,80 @@ section {
     min-height: 50px;
     background-size: cover;
     background-position: center;
-    transition: background 1.25s ease-out;
+    transition: background 1.35s ease-in;
 }
 
 nav.scrolled {
     background: linear-gradient(to right, #7FB3E0, #3575BB);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #fff;
+    transition: background 1s ease-in;
+}
+
+@media screen and (max-width: 567.8px) {
+    nav {
+        background: linear-gradient(to right, #7FB3E0, #3575BB);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .logo-nav {
+        width: 50px;
+        min-height: 50px;
+        background: url('../img/Logo_White.png') no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 .custom-nav {
     text-transform: capitalize;
+    margin-left: 13px;
+    margin-right: 13px;
+    color: #7FB3E0 !important;
+    margin-top: 10px;
 }
 
 nav.scrolled a.nav-link {
     color: white !important;
-    transition: color 0.25s ease-in;
+    transition: color 0.5s ease-in;
+}
+
+.nav-custom-button {
+    background: #3575BB;
+    border-radius: 100px;
+}
+
+nav.scrolled .nav-custom-button {
+    background: #7FB3E0;
+    transition: background 0.55s ease-in;
+}
+
+.nav-custom-button>a {
+    color: white !important;
+}
+
+.garis {
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(to right, #7FB3E0, #3575BB);
+    transition: width 0.5s;
+    margin-top: 10px;
+}
+
+nav.scrolled .garis {
+    background: linear-gradient(to left, #ffffff, #3575BB);
+}
+
+.nav-link:hover .garis {
+    width: 100%;
+}
+
+#br {
+    transition-timing-function: ease;
+    -webkit-transition-timing-function: ease;
 }
 
 
-/* END Images, Logo, and others */
+/* END Navs, Images, Logo, and others */
 
 
 /* ================================================================================ */
