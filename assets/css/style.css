@@ -153,6 +153,19 @@ nav.scrolled .garis {
     margin-left: 45%
 }
 
+.btn-about-us {
+    background-color: #3575BB;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+
+.btn-about-us:hover {
+    background-color: white;
+    border: 2px solid #3575BB;
+    border-radius: 100px;
+    color: #3575BB;
+}
+
 
 /* END About Us Section */
 
@@ -200,3 +213,12 @@ nav.scrolled .garis {
 
 
 /* END How It Works Section */
+
+
+/* ================================================================================ */
+
+
+/* Product Section */
+
+
+/* END Product Section */
