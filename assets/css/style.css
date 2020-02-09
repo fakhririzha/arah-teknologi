@@ -226,3 +226,33 @@ nav.scrolled .garis {
 
 
 /* END Product Section */
+
+
+/* ================================================================================ */
+
+
+/* Testimoni Section */
+
+.img-carousel-testimoni {
+    width: 128px;
+    height: auto;
+    border-radius: 64px;
+    border: 2px solid white;
+    margin-bottom: 16px;
+}
+
+
+/* END Testimoni Section */
+
+
+/* ================================================================================ */
+
+
+/* Footer Section */
+
+.footer-custom {
+    background-color: #3575BB;
+}
+
+
+/* END Footer Section */

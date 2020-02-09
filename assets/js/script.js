@@ -7,3 +7,7 @@ $(window).on("scroll", function() {
         $('.logo-nav').removeClass('logo-nav-white');
     }
 })
+
+$('.carousel').carousel({
+    interval: 3500
+})
