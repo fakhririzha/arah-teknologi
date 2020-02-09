@@ -95,7 +95,7 @@ nav.scrolled .nav-custom-button {
 }
 
 nav.scrolled .garis {
-    background: linear-gradient(to left, #ffffff, #3575BB);
+    background: white;
 }
 
 .nav-link:hover .garis {
@@ -136,3 +136,22 @@ nav.scrolled .garis {
     color: rgb(255, 255, 255);
     transition: color 0.25s ease-out;
 }
+
+
+/* END Header Section */
+
+
+/* About Us Section */
+
+.garis-subheading {
+    width: 10%;
+    height: 5px;
+    background: linear-gradient(to right, #7FB3E0, #3575BB);
+    transition: width 0.5s;
+    margin-top: 10px;
+    border-radius: 50px;
+    margin-left: 45%
+}
+
+
+/* END About Us Section */
