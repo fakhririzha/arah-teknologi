@@ -1,20 +1,72 @@
 /* Main Styling */
+
+body {
+    /* font-family: 'Rubik', sans-serif; */
+    font-family: 'Comfortaa', cursive;
+}
+
 section {
     /* margin-top: 2%; */
     padding: 10% 0;
     height: auto;
 }
 
+
+/* END Main Styling */
+
+
+/* ================================================================================ */
+
+
 /* Images, Logo, and others */
-.img-logo-at {
-    width: 55px !important;
-    height: auto !important;
+
+.logo-nav {
+    width: 50px;
+    min-height: 50px;
+    background: url('../img/Logo.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: background 1.45s ease-in;
 }
 
+.logo-nav-white {
+    background: url('../img/Logo_White.png') no-repeat;
+    width: 50px;
+    min-height: 50px;
+    background-size: cover;
+    background-position: center;
+    transition: background 1.25s ease-out;
+}
+
+nav.scrolled {
+    background: linear-gradient(to right, #7FB3E0, #3575BB);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #fff;
+}
+
+.custom-nav {
+    text-transform: capitalize;
+}
+
+nav.scrolled a.nav-link {
+    color: white !important;
+    transition: color 0.25s ease-in;
+}
+
+
+/* END Images, Logo, and others */
+
+
+/* ================================================================================ */
+
+
 /* Header Section */
+
 #header {
+    font-family: 'Comfortaa', cursive;
     background-image: url('../img/Header.jpg');
     background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .underline--magical {
@@ -22,9 +74,11 @@ section {
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: 0 88%;
-    transition: background-size 0.25s ease-in;
+    transition: background-size 0.35s ease-in;
 }
 
 .underline--magical:hover {
-background-size: 100% 88%;
+    background-size: 100% 88%;
+    color: rgb(255, 255, 255);
+    transition: color 0.25s ease-out;
 }
