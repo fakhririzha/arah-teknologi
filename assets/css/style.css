@@ -241,6 +241,13 @@ nav.scrolled .garis {
     margin-bottom: 16px;
 }
 
+.carousel-indicators li {
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
 
 /* END Testimoni Section */
 
