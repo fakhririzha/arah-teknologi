@@ -16,6 +16,7 @@
 
     <!-- CSS Library -->
     <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/floating_placeholder.css">
 
     <!-- FontAwesome CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -93,7 +94,8 @@
                         </a>
                     </li>
                     <li class="nav-item nav-custom-button" style="margin-left: 10px;">
-                        <a class="nav-link custom-nav" href="https://api.whatsapp.com/send?phone=6285398652346">
+                        <!-- <a class="nav-link custom-nav" href="https://api.whatsapp.com/send?phone=6285398652346"> -->
+                        <a class="nav-link custom-nav" onclick="$('#contact-us').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});">
                                 Hubungi Kami
                             <!-- <button class="btn nav-custom-button"></button> -->
                         </a>
@@ -192,7 +194,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <h5 class="text-center font-weight-bold">PRODUK
+                        <h5 class="text-center font-weight-bold">Produk
                             <div class="garis-subheading"></div>
                         </h5>
                     </div>
@@ -288,6 +290,69 @@
                 </a>
             </div>
         </section>
+
+        <section id="contact-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h5 class="text-center font-weight-bold">Hubungi Kami
+                            <div class="garis-subheading"></div>
+                        </h5>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <form class="form-signin">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-label-group">
+                                    <input type="text" id="inputNama" name="inputNama" class="form-control" placeholder="Nama" required autofocus>
+                                    <label for="inputNama">Nama</label>
+                                </div>
+
+                                <div class="form-label-group">
+                                    <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Alamat e-mail" required>
+                                    <label for="inputEmail">Alamat e-mail</label>
+                                </div>
+
+                                <div class="form-label-group">
+                                    <input type="text" id="inputPhone" name="inputPhone" class="form-control" placeholder="Nomor telepon" required>
+                                    <label for="inputPhone">Nomor telepon</label>
+                                </div>
+
+                                <div class="form-label-group">
+                                    <!-- <label for="inputState">State</label> -->
+                                    <select id="inputProduk" name="inputProduk" class="form-control" required>
+                                          <option selected>Pilih produk</option>
+                                          <option value="Produk 1">Produk 1</option>
+                                          <option value="Produk 2">Produk 2</option>
+                                          <option value="Produk 3">Produk 3</option>
+                                        </select>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="col-6">
+                                <div class="form-label-group">
+                                    <!-- <label for="inputPesan">Pesan</label> -->
+                                    <textarea class="form-control" name="inputKeluhan" id="inputPesan" cols="30" rows="7" placeholder="Pesan"></textarea>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-paper-plane"></i> Kirim Pesan </button>
+                                    </div>
+                                    <div class="col-6">
+                                        <a class="btn btn-success btn-block text-white" onclick="prosesWhatsApp();"><i class="fab fa-whatsapp"></i> Kirim ke WhatsApp</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+        <hr>
 
         <section id="map">
             <div class="container">
@@ -397,6 +462,7 @@
     <script src="assets/js/scrollreveal.min.js"></script>
     <script src="assets/js/animatescroll.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/send_to_whatsapp.js"></script>
     <script src="assets/js/custom_underline.js"></script>
 </body>
 
