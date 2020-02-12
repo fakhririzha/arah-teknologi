@@ -59,7 +59,7 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" onclick="$('#header').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});" style="cursor: pointer;">
                 <div class="logo-nav"></div>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,25 +69,25 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link custom-nav" href="#">
+                        <a class="nav-link custom-nav" onclick="$('#about-us').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});">
                             Tentang Kami
                             <div class="garis" id="br"></div>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link custom-nav" href="#">
+                        <a class="nav-link custom-nav" onclick="$('#how-it-works').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});">
                             Cara Kerja
                             <div class="garis" id="br"></div>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link custom-nav" href="#">
+                        <a class="nav-link custom-nav" onclick="$('#product').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});">
                             Produk
                             <div class="garis" id="br"></div>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link custom-nav" href="#">
+                        <a class="nav-link custom-nav" onclick="$('#testimoni').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});">
                             Testimoni
                             <div class="garis" id="br"></div>
                         </a>
@@ -362,6 +362,9 @@
                         <i class="fab fa-facebook fa-2x text-white"></i>
 
                         <br>
+                        <br>
+                        <br>
+                        <br>
 
                         <a class="nav-item text-white" href="./#faq">FAQ</a><br>
                         <a class="nav-item text-white" href="tos">Term of Service</a><br>
@@ -388,10 +391,11 @@
         </div>
     </footer>
 
-    <script src="assets/js/jquery-3.4.1.slim.js"></script>
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
     <script src="assets/js/bootstrap.bundle.js"></script>
     <script src="assets/js/SmoothScroll.min.js"></script>
     <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/animatescroll.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/custom_underline.js"></script>
 </body>

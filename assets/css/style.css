@@ -98,6 +98,10 @@ nav.scrolled .garis {
     background: white;
 }
 
+.nav-link {
+    cursor: pointer;
+}
+
 .nav-link:hover .garis {
     width: 100%;
 }
