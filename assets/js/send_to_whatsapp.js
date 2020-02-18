@@ -23,7 +23,7 @@ function prosesWhatsApp() {
 
     // alert(encodeURI(message));
 
-    alert("https://api.whatsapp.com/send?phone=6285398652346&text=" + encodeURI(message) + "&source=&data=");
+    // alert("https://api.whatsapp.com/send?phone=6285398652346&text=" + encodeURI(message) + "&source=&data=");
 
     window.location.replace("https://api.whatsapp.com/send?phone=6285398652346&text=" + encodeURI(message) + "&source=&data=");
 }
