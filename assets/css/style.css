@@ -285,6 +285,22 @@ nav.scrolled .garis {
     border: 2px solid transparent;
 }
 
+@media screen and (max-width: 576px) {
+    .img-carousel-testimoni {
+        width: 64px;
+        height: auto;
+        border-radius: 64px;
+        border: 2px solid white;
+        margin-bottom: 16px;
+    }
+    .responsive-caption {
+        font-size: .75rem;
+    }
+    .responsive-subcaption {
+        font-size: .5rem;
+    }
+}
+
 
 /* END Testimoni Section */
 
