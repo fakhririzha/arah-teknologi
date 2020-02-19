@@ -8,6 +8,10 @@ $(window).on("scroll", function() {
     }
 })
 
+$(window).on('load', function() {
+    $(window).scrollTop(0);
+});
+
 $('.carousel').carousel({
     interval: 3500
 })
