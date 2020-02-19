@@ -236,7 +236,7 @@ nav.scrolled .garis {
 .btn-custom-produk {
     background-color: #3575BB;
     border: transparent;
-    border-radius: 50px;
+    border-radius: 25px;
 }
 
 .btn-custom-produk:hover {
@@ -257,7 +257,8 @@ nav.scrolled .garis {
 }
 
 .black-shade {
-    background: rgba(0, 0, 0, 0.5);
+    background: #3575BB;
+    border-radius: 50px;
 }
 
 
