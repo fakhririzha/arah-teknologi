@@ -304,6 +304,12 @@ nav.scrolled .garis {
     border-radius: 50px;
 }
 
+@media screen and (max-width: 576px) {
+    .tombol-contact-atas {
+        margin-bottom: .5em;
+    }
+}
+
 
 /* END Contact Form Section */
 
