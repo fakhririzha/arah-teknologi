@@ -123,6 +123,7 @@ nav.scrolled .garis {
 #header {
     font-family: 'Comfortaa', cursive;
     background-image: url('../img/Header_Rev1.jpg');
+    /* FIXME FIX THIS FOR MOBILE RESPONSIVE IMAGE */
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
@@ -139,6 +140,12 @@ nav.scrolled .garis {
     background-size: 100% 88%;
     color: rgb(255, 255, 255);
     transition: color 0.25s ease-out;
+}
+
+@media screen and (max-width: 576px) {
+    .responsive-text-display {
+        font-size: 3.5rem;
+    }
 }
 
 
