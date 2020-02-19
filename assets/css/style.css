@@ -256,6 +256,10 @@ nav.scrolled .garis {
     animation-iteration-count: infinite;
 }
 
+.black-shade {
+    background: rgba(0, 0, 0, 0.5);
+}
+
 
 /* END Product Section */
 
@@ -288,6 +292,12 @@ nav.scrolled .garis {
 
 
 /* Contact Form Section */
+
+#contact-us {
+    background-image: url('../img/Hubungi\ Kami.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
 
 .custom-contact-form {
     border-radius: 50px;
