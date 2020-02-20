@@ -128,6 +128,14 @@ nav.scrolled .garis {
     background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 567px) {
+    #header {
+        background-image: url('../img/Header_Mobile.jpg');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+}
+
 .underline--magical {
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     background-repeat: no-repeat;
