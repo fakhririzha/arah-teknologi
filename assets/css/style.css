@@ -208,6 +208,14 @@ nav.scrolled .garis {
     }
 }
 
+@media screen and (max-width: 360px) {
+    #how-it-works {
+        background-image: url('../img/Cara\ Kerja\ Mobile\ SM.jpg');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+}
+
 .garis-subheading-white {
     width: 10%;
     height: 5px;
