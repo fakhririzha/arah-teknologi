@@ -123,7 +123,7 @@ nav.scrolled .garis {
 #header {
     font-family: 'Comfortaa', cursive;
     background-image: url('../img/Header_Rev1.jpg');
-    /* FIXME FIX THIS FOR MOBILE RESPONSIVE IMAGE */
+    /* DONE FIX THIS FOR MOBILE RESPONSIVE IMAGE */
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
