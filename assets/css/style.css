@@ -332,6 +332,24 @@ nav.scrolled .garis {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .carousel-item {
+        max-height: 65vh;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .carousel-item {
+        max-height: 60vh;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .carousel-item {
+        max-height: 50vh;
+    }
+}
+
 
 /* END Testimoni Section */
 
