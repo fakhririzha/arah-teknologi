@@ -122,7 +122,7 @@ nav.scrolled .garis {
 
 #header {
     font-family: 'Comfortaa', cursive;
-    background-image: url('../img/Header_Rev1.jpg');
+    background-image: url('../img/Header_Rev1.svg');
     /* DONE FIX THIS FOR MOBILE RESPONSIVE IMAGE */
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -130,7 +130,7 @@ nav.scrolled .garis {
 
 @media screen and (max-width: 567px) {
     #header {
-        background-image: url('../img/Header_Mobile.jpg');
+        background-image: url('../img/Header_Mobile.svg');
         background-size: 100% auto;
         background-repeat: no-repeat;
     }
@@ -195,14 +195,14 @@ nav.scrolled .garis {
 /* How It Works Section */
 
 #how-it-works {
-    background-image: url('../img/Cara\ Kerja.jpg');
+    background-image: url('../img/Cara\ Kerja.svg');
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 567px) {
     #how-it-works {
-        background-image: url('../img/Cara\ Kerja\ Mobile.jpg');
+        background-image: url('../img/Cara\ Kerja\ Mobile.svg');
         background-size: 100% auto;
         background-repeat: no-repeat;
     }
@@ -210,7 +210,7 @@ nav.scrolled .garis {
 
 @media screen and (max-width: 360px) {
     #how-it-works {
-        background-image: url('../img/Cara\ Kerja\ Mobile\ SM.jpg');
+        background-image: url('../img/Cara\ Kerja\ Mobile\ SM.svg');
         background-size: 100% auto;
         background-repeat: no-repeat;
     }
@@ -360,7 +360,7 @@ nav.scrolled .garis {
 /* Contact Form Section */
 
 #contact-us {
-    background-image: url('../img/Hubungi\ Kami.jpg');
+    background-image: url('../img/Hubungi\ Kami.svg');
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
