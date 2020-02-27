@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="512px" height="512px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 512 512"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="722" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="700">
+	<font-face 
+		font-family="Arial">
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="”" horiz-adv-x="500"><path d="M291.999 716l137.001 0 0 -98.4998c0,-39.6662 -3.50001,-70.8338 -10.5,-93.6666 -7.00002,-22.6673 -20.0009,-43.3333 -38.8342,-61.667 -19.0003,-18.3337 -42.9992,-32.8333 -71.8329,-43.1662l-26.8339 56.9992c27.3335,9.16684 46.8333,21.8337 58.6665,38.0005 12.0002,16.3339 18.0012,38.0005 18.3337,64.9999l-66.0006 0 0 137zm-230 0l137 0 0 -98.4998c0,-39.6662 -3.33297,-70.8338 -10.1659,-93.6666 -6.83298,-22.6673 -19.8339,-43.3333 -38.8326,-61.667 -19.0003,-18.3337 -43.1678,-32.8333 -72.334,-43.1662l-26.6669 56.9992c27.5005,9.16684 47.0003,21.8337 58.6665,38.0005 11.5007,16.3339 17.6671,38.0005 18.3337,64.9999l-66.0006 0 0 137z"/></glyph>
+   <glyph unicode=" " horiz-adv-x="277"></glyph>
+   <glyph unicode="“" horiz-adv-x="500"><path d="M202 426l-137 0 0 98.1657c0,39.8333 3.50001,71.1679 10.5,94.0007 7.00002,22.9998 19.8339,43.6674 38.6671,61.834 18.8332,18.3321 42.9992,32.6662 72.167,42.9992l26.6653 -56.9992c-27.1664,-9.16684 -46.4992,-21.8337 -58.3324,-38.0005 -11.8332,-16.3339 -17.9996,-38.0005 -18.6662,-64.9999l65.999 0 0 -137zm229.001 0l-137 0 0 98.1657c0,40.0003 3.50001,71.5004 10.5,94.3347 7.00002,22.8328 19.9994,43.3333 38.9996,61.4999 19.0003,18.3321 42.9992,32.6662 71.8329,42.9992l26.6669 -56.9992c-27.1664,-9.16684 -46.5008,-21.8337 -58.334,-38.0005 -11.8332,-16.3339 -17.9996,-38.0005 -18.6662,-64.9999l66.0006 0 0 -137z"/></glyph>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Arial";src:url("#FontID0") format(svg)}
+    .fil1 {fill:none}
+    .fil0 {fill:#373435}
+    .fnt0 {font-weight:bold;font-size:252.193px;font-family:'Arial'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <text x="59" y="251"  class="fil0 fnt0">“</text>
+  <text x="59" y="533"  class="fil0 fnt0">    ”</text>
+  <rect class="fil1" width="512" height="512"/>
+ </g>
+</svg>
