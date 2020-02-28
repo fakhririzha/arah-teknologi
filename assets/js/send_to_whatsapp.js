@@ -25,5 +25,5 @@ function prosesWhatsApp() {
 
     // alert("https://api.whatsapp.com/send?phone=6285398652346&text=" + encodeURI(message) + "&source=&data=");
 
-    window.location.replace("https://api.whatsapp.com/send?phone=6285398652346&text=" + encodeURI(message) + "&source=&data=");
+    window.location.replace("https://api.whatsapp.com/send?phone=628125054405&text=" + encodeURI(message) + "&source=&data=");
 }
