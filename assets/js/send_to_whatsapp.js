@@ -4,7 +4,7 @@ function prosesWhatsApp() {
     var email = document.getElementById("inputEmail").value;
     var phone = document.getElementById("inputPhone").value;
     var produk = document.getElementById("inputProduk").value;
-    var pesan = document.getElementById("inputPesan").innerText;
+    var pesan = document.getElementById("inputPesan").value;
 
     var message =
         `
@@ -24,6 +24,8 @@ function prosesWhatsApp() {
     // alert(encodeURI(message));
 
     // alert("https://api.whatsapp.com/send?phone=6285398652346&text=" + encodeURI(message) + "&source=&data=");
+
+    // console.log(message)
 
     window.location.replace("https://api.whatsapp.com/send?phone=628125054405&text=" + encodeURI(message) + "&source=&data=");
 }
